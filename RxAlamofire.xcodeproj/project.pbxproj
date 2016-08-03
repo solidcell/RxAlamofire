@@ -464,12 +464,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C89A0D341BE0D50E00744695 /* Build configuration list for PBXNativeTarget "RxAlamofire-iOS" */;
 			buildPhases = (
-				3CE028ADEF441613B86099C2 /* 📦 Check Pods Manifest.lock */,
 				C89A0D261BE0D50E00744695 /* Sources */,
 				C89A0D271BE0D50E00744695 /* Frameworks */,
 				C89A0D281BE0D50E00744695 /* Headers */,
 				C89A0D291BE0D50E00744695 /* Resources */,
-				6313CC8D7A16B56FB95765C1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -646,36 +644,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAlamofiretvOSExample/Pods-RxAlamofiretvOSExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CE028ADEF441613B86099C2 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6313CC8D7A16B56FB95765C1 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAlamofire-iOS/Pods-RxAlamofire-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EBCD5EF20EBF32B7486BE9A /* 📦 Check Pods Manifest.lock */ = {
